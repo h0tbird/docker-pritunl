@@ -20,5 +20,6 @@ mongo:3.2 \
 docker run -it --rm \
 --privileged \
 --net host --name pritunl \
+--env MONGODB_URI=mongodb://127.0.0.1:27017/pritunl \
 h0tbird/pritunl:latest
 ```

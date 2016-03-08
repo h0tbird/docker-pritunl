@@ -1,3 +1,4 @@
 #!/bin/sh
 
+[ "${MONGODB_URI}" ] && pritunl set-mongodb ${MONGODB_URI}
 exec pritunl start
