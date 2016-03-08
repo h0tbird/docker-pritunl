@@ -4,11 +4,15 @@
 
 Containerized Pritunl service.
 
+##### 1. Mongodb:
+
 ```
 docker run -it --rm \
 --net host --name mongo \
 mongo:3.2
 ```
+
+##### 2. Pritunl:
 
 ```
 docker run -it --rm \
