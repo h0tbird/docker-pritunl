@@ -16,6 +16,7 @@ mongo:3.2
 
 ```
 docker run -it --rm \
+--privileged \
 --net host --name pritunl \
 h0tbird/pritunl:latest
 ```
