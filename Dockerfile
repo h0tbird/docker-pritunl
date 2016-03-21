@@ -2,14 +2,14 @@
 # Set the base image for subsequent instructions:
 #------------------------------------------------------------------------------
 
-FROM alpine:edge
+FROM alpine:3.3
 MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
 
 #------------------------------------------------------------------------------
 # Environment variables:
 #------------------------------------------------------------------------------
 
-ENV VERSION="1.18.908.31"
+ENV VERSION="1.20.917.37"
 
 #------------------------------------------------------------------------------
 # Install:

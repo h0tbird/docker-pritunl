@@ -23,3 +23,7 @@ docker run -it --rm \
 --env MONGODB_URI=mongodb://127.0.0.1:27017/pritunl \
 h0tbird/pritunl:latest
 ```
+
+##### 3. Browse to:
+
+https://127.0.0.1
