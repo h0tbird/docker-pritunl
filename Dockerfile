@@ -9,7 +9,7 @@ MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
 # Environment variables:
 #------------------------------------------------------------------------------
 
-ENV VERSION="1.21.954.48"
+ENV VERSION="1.25.1093.62"
 
 #------------------------------------------------------------------------------
 # Install:
