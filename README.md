@@ -1,6 +1,6 @@
 # docker-pritunl
 
-[![Build Status](https://travis-ci.org/h0tbird/docker-pritunl.svg?branch=master)](https://travis-ci.org/h0tbird/docker-pritunl)
+[![Build Status](https://travis-ci.org/katosys/docker-pritunl.svg?branch=master)](https://travis-ci.org/katosys/docker-pritunl)
 
 Containerized Pritunl service.
 
@@ -21,7 +21,7 @@ docker run -it --rm \
 --privileged \
 --net host --name pritunl \
 --env MONGODB_URI=mongodb://127.0.0.1:27017/pritunl \
-h0tbird/pritunl:latest
+katosys/pritunl:latest
 ```
 
 ##### 3. Browse to:
