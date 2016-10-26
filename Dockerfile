@@ -3,7 +3,7 @@
 #------------------------------------------------------------------------------
 
 FROM alpine:3.4
-MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
+MAINTAINER Marc Villacorta Morera <kilokilo987@gmail.com>
 
 #------------------------------------------------------------------------------
 # Environment variables:
