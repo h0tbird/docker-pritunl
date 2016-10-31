@@ -21,7 +21,7 @@ docker run -it --rm \
 --privileged \
 --net host --name pritunl \
 --env MONGODB_URI=mongodb://127.0.0.1:27017/pritunl \
-katosys/pritunl:latest
+quay.io/kato/pritunl:latest
 ```
 
 ##### 3. Browse to:
