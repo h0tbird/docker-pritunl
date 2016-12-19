@@ -9,8 +9,7 @@ Containerized Pritunl service.
 ```
 docker run -it --rm \
 --net host --name mongo \
---volume /var/lib/mongo:/data/db \
-mongo:3.2 \
+mongo:3.4 \
 --bind_ip 127.0.0.1
 ```
 
