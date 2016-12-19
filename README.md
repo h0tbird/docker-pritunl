@@ -1,6 +1,6 @@
-# docker-pritunl
+# pritunl
 
-[![Build Status](https://travis-ci.org/katosys/docker-pritunl.svg?branch=master)](https://travis-ci.org/katosys/docker-pritunl)
+[![Build Status](https://travis-ci.org/katosys/pritunl.svg?branch=master)](https://travis-ci.org/katosys/pritunl)
 
 Containerized Pritunl service.
 
