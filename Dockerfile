@@ -2,14 +2,14 @@
 # Set the base image for subsequent instructions:
 #------------------------------------------------------------------------------
 
-FROM alpine:3.4
+FROM alpine:3.5
 MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
 
 #------------------------------------------------------------------------------
 # Environment variables:
 #------------------------------------------------------------------------------
 
-ENV VERSION="1.26.1188.41"
+ENV VERSION="1.27.1259.77"
 
 #------------------------------------------------------------------------------
 # Install:
@@ -17,9 +17,8 @@ ENV VERSION="1.26.1188.41"
 
 RUN apk --no-cache add --update -t deps go git bzr wget py-pip \
     gcc python-dev musl-dev linux-headers libffi-dev openssl-dev \
-    && apk --no-cache add --update py-setuptools openssl procps ca-certificates openvpn \
-    && export GOPATH=/go && go get github.com/pritunl/pritunl-dns \
-    && go get github.com/pritunl/pritunl-monitor \
+    && apk --no-cache add py-setuptools openssl procps ca-certificates openvpn \
+    && export GOPATH='/go' && go get github.com/pritunl/pritunl-dns \
     && go get github.com/pritunl/pritunl-web && cp /go/bin/* /usr/bin/ \
     && wget https://github.com/pritunl/pritunl/archive/${VERSION}.tar.gz \
     && tar zxvf ${VERSION}.tar.gz && cd pritunl-${VERSION} \
