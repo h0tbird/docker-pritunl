@@ -2,7 +2,7 @@
 # Set the base image for subsequent instructions:
 #------------------------------------------------------------------------------
 
-FROM alpine:3.6
+FROM alpine:3.7
 
 #------------------------------------------------------------------------------
 # Environment variables:
